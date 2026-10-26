@@ -1,0 +1,43 @@
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env_py/
+
+# IDE / editor / OS files
+.vscode/
+.idea/
+.antigravity/
+.gemini/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# Scratch / temporary logs (training_log.txt is kept for plot_training.py)
+eval_log.txt
+ablation_log.txt
+*.log
+*.tmp
+*.bak
+
+# LaTeX build artifacts (the compiled report/RegenRL.pdf IS kept)
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.synctex.gz
+report/*.fls
+report/*.fdb_latexmk
+report/*.bbl
+report/*.blg
+
+# NOTE: do NOT ignore these, they are required for the submission:
+#   saved_models/*.pt, results/plots/*.png, report/*.png,
+#   report/RegenRL.pdf, training_log.txt
